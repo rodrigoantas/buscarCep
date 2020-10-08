@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.error-text {
+  display: none;
+  font-family: 'IBM Plex Mono';
+  font-weight: bold;
+  color: red;
+}
+
+.error-text.active {
+  display:block;
+}
+
+
+form {
+  margin-bottom: 20px
+}
+
+label {
+  display: block;
+  font-family: 'IBM Plex Mono';
+  font-weight: bold;
+}
+
+p {
+  font-family: 'IBM Plex Mono';
+}
+input {
+  padding: 5px;
+  border: 2px solid black;
+  font-size: 1rem;
+}
+input::placeholder {
+  color: rgba(0,0,0);
+}
+
+input.erro {
+  border-color: red;
+}
+
+input.valido {
+  border-color: green;
+}
